@@ -29,7 +29,6 @@ int main() {
     for (int j = 0; j < n_simulations; j++) {
         loveleen.bankroll = initial_bankroll;
         bet_controller = 1;
-
         for (int i = 1; ; i++) {
 
             //Loveleen placing bet
